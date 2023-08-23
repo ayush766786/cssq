@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img1{
+    background-image: url(https://practice-project-html-css.vercel.app/Project%203/images/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    
+    color: #ffffff;
+    background: #313534;
+    padding: 20px;
+    border-radius: 10px;
+    
+   
+}
+h2{
+    text-align: center;
+    margin-block: 40px;
+}
+p{
+    margin: 90px;
+}
+.img2{
+    background-image: url(https://practice-project-html-css.vercel.app/Project%203/images/image2.png);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    background: #313534;
+    color: #fff;
+}
+.img3{
+    background-image: url(https://practice-project-html-css.vercel.app/Project%203/images/image3.png);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:494px) {
+    h1{
+        text-align: center;
+       margin: 20px;
+    }
+}
